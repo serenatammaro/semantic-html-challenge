@@ -13,3 +13,10 @@ h1 {
 table, th, td {
   border: 1px solid black;
 }
+
+#footText th:nth-child(odd) {
+  text-align: right;
+}
+#footText th:nth-child(even) {
+  text-align: left;
+}
