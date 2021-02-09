@@ -14,6 +14,18 @@ table, th, td {
   border: 1px solid black;
 }
 
+tbody {
+  background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/noise.png);
+}
+
+thead {
+  background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/leopardskin.jpg);
+}
+
+tfoot {
+  background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/leopardskin.jpg);
+}
+
 #footText th:nth-child(odd) {
   text-align: right;
 }
