@@ -11,11 +11,29 @@ h1 {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #800080;
+}
+
+thead, tfoot {
+  font-family: "Rock Salt";
+  color: white;
+
 }
 
 tbody {
   background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/noise.png);
+  font-style: "Helvetica Neu";
+  text-align: center;
+  
+}
+
+
+
+tbody:nth-child(even) tr:nth-child(odd) {
+  background-color:  #ff33cc;
+}
+tbody:nth-child(even) tr:nth-child(even) {
+  background-color: #e495e4;
 }
 
 thead {
