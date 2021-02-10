@@ -22,7 +22,7 @@ thead, tfoot {
 
 tbody {
   background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/noise.png);
-  font-style: "Helvetica Neu";
+  font-family: "Helvetica Neu";
   text-align: center;
   
 }
@@ -38,10 +38,12 @@ tbody:nth-child(even) tr:nth-child(even) {
 
 thead {
   background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/leopardskin.jpg);
+  background: linear-gradient(rgba(0,0,0,0.1));
 }
 
 tfoot {
   background-image: url(/Users/wingapoh2/semantic-html-challenge/assets/leopardskin.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5));
 }
 
 #footText th:nth-child(odd) {
@@ -49,4 +51,8 @@ tfoot {
 }
 #footText th:nth-child(even) {
   text-align: left;
+}
+
+#bandName {
+  font-weight: bold;
 }
